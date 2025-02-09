@@ -41,7 +41,7 @@ const Contact = () => {
               placeholder="Your Name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
+              className="w-full p-3 border text-black border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
               required
             />
             <input
@@ -50,7 +50,7 @@ const Contact = () => {
               placeholder="Your Email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
+              className="w-full p-3 border text-black border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
             placeholder="Your Phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
+            className="w-full p-3 border text-black border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
             required
           />
           <textarea
@@ -69,7 +69,7 @@ const Contact = () => {
             placeholder="Your Message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
+            className="w-full p-3 border text-black border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-sm sm:text-base"
             required
           ></textarea>
           <button
