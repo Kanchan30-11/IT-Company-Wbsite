@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div
       className="bg-cover bg-no-repeat bg-center h-screen flex items-center justify-center text-white px-6"
-      style={{ backgroundImage: `url(${bg})` }}
+      
     >
       <div className="text-center max-w-3xl lg:pt-40 ">
         {/* Headline */}

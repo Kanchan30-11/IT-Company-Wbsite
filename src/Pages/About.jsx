@@ -6,14 +6,14 @@ import img4 from '../assets/bg.jpg';
 import missionImg from '../assets/bg.jpg';
 import valuesImg from '../assets/bg.jpg';
 import clientImg from '../assets/bg.jpg';
-
+import bg from '../assets/bg5.jpg'
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-12 lg:mt-8 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen  flex flex-col items-center py-12 lg:mt-8 px-4 sm:px-6 lg:px-8" style={{ backgroundImage: `url(${bg})` }}>
       
       {/* Header Section */}
-      <div className="w-full max-w-6xl bg-white shadow-lg rounded-lg p-8 sm:p-12">
-        <h2 className="text-4xl font-bold text-center text-blue-600 mb-6">
+      <div className="w-full  max-w-6xl bg-white shadow-lg rounded-lg p-8 sm:p-12">
+        <h2 className="lg:text-6xl text-3xl font-bold text-center text-blue-600 mb-6">
           About Our Company
         </h2>
         <p className="text-gray-600 text-center text-lg">
@@ -50,7 +50,7 @@ const About = () => {
       {/* Core Values Section */}
       <div className="max-w-6xl mt-16 text-center">
         <h3 className="text-3xl font-semibold text-blue-600">Our Core Values</h3>
-        <p className="text-gray-700 mt-4 text-lg">
+        <p className="text-gray-100 mt-4 font-semibold text-lg">
           Our principles drive us towards excellence and customer satisfaction.
         </p>
 
@@ -73,7 +73,7 @@ const About = () => {
       {/* Why Choose Us */}
       <div className="max-w-6xl mt-16">
         <h3 className="text-3xl font-semibold text-blue-600 text-center">Why Choose Us?</h3>
-        <p className="text-gray-700 text-center mt-4 text-lg">
+        <p className="text-gray-100 font-semibold text-center mt-4 text-lg">
           Here’s what makes us stand out from the competition.
         </p>
 
@@ -111,7 +111,7 @@ const About = () => {
       {/* Testimonials Section */}
       <div className="max-w-6xl mt-16">
         <h3 className="text-3xl font-semibold text-blue-600 text-center">What Our Clients Say</h3>
-        
+        <div className="flex">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-8">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-gray-700 text-lg">
@@ -119,6 +119,15 @@ const About = () => {
             </p>
             <h4 className="text-lg font-semibold mt-4">- Alex Johnson</h4>
           </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-8">
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <p className="text-gray-700 text-lg">
+              "The team at this company delivered an outstanding solution tailored to our needs. Highly recommended!"
+            </p>
+            <h4 className="text-lg font-semibold mt-4">- Alex Johnson</h4>
+          </div>
+        </div>
         </div>
       </div>
 

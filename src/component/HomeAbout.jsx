@@ -19,13 +19,16 @@ const HomeAbout = () => {
 
         {/* Company Mission & Vision */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+         <a href="/about">
           <div className="bg-stone-300 p-6 rounded-lg shadow-md hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-blue-600">🚀 Our Mission</h3>
             <p className="text-gray-700 mt-2 text-sm sm:text-base">
               Empowering businesses with scalable technology solutions, 
-              creating digital experiences that enhance efficiency and engagement.
+              creating digital experiences that enhance efficiency.
             </p>
           </div>
+          </a>
+          <a href="/about"> 
           <div className="bg-stone-300 p-6 rounded-lg shadow-md hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-blue-600">🌍 Our Vision</h3>
             <p className="text-gray-700 mt-2 text-sm sm:text-base">
@@ -33,6 +36,7 @@ const HomeAbout = () => {
               landscape with innovative and impactful solutions.
             </p>
           </div>
+          </a>
         </div>
 
         {/* Team Section */}
